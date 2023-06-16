@@ -1,0 +1,28 @@
+using System;
+namespace Oops
+{
+    abstract class Animal
+    {
+        public abstract void MakeSound();
+    }
+
+    // Derived class 1
+    class Dog : Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("The dog barks.");
+        }
+    }
+
+    // Derived class 2
+    class Cat : Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("The cat meows.");
+        }
+    }
+
+}
+
