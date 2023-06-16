@@ -1,0 +1,38 @@
+using System;
+namespace Oops
+{
+    class Shape
+    {
+        public virtual void Draw()
+        {
+            Console.WriteLine("Drawing a shape.");
+        }
+    }
+
+    // Derived class 1
+    class Circle : Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Drawing a circle.");
+        }
+    }
+
+    // Derived class 2
+    class Square : Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Drawing a square.");
+        }
+    }
+
+    // Derived class 3
+    class Triangle : Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Drawing a triangle.");
+        }
+    }
+}
